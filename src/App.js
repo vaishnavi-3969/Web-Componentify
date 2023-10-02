@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='righteous-text'>
       <BrowserRouter>
       <Navbar/>
         <Routes>

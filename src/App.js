@@ -12,7 +12,7 @@ import ButtonDoc from "./Documentation/ButtonDoc";
 
 function App() {
   return (
-    <div className="righteous-text">
+    <div>
       <BrowserRouter>
         <Header />
         <div className="home-container">

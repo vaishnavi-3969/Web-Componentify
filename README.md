@@ -106,8 +106,8 @@ Contributions are always welcome!
   <h2>✨Top Contributors</h2>   
 Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀 
 <br/>
-<a href="https://github.com/vaishnavi-3969/Web-Componentify/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vaishnavi-3969/Web-Componentify" />
+<a href="https://github.com/vaishnavi-3969/web-componentify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vaishnavi-3969/web-componentify" />
 </a>
 
 <h2>⭐Give this Project a Star</h2>

@@ -19,33 +19,43 @@
   --flow-condition: calc((41.25rem - 100vw) * 999);
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1000;
+  width: 100vw;
+}
+
 a {
   text-decoration: none;
 }
 
 body {
-  min-block-size: 100vh;
+  /* min-block-size: 100vh;
   display: grid;
-  place-content: center;
+  place-content: center; */
   background: linear-gradient(45deg, hsl(185, 26%, 72%), hsl(224, 66%, 82%));
   font: 400 16px/1.3 "Roboto", sans-serif;
 }
 
 header {
   --space: clamp(1rem, calc(-17.7rem + 48.48vw), 2rem);
-  --width: 50rem;
-  --height: 3rem;
+  --width: 100vw;
+  --height: 5vh;
   --logo: 5em;
 
-  inline-size: clamp(412px, var(--width), 90vw);
+  /* inline-size: clamp(412px, var(--width), 90vw); */
   min-height: var(--height);
-
+  width: 100vw;
   display: grid;
   grid-template-columns: var(--space) 1fr var(--space);
   padding: 0.5rem;
   background: #fff;
   border: clamp(0px, var(--flow-condition), 0.125rem) solid var(--accent-cyan);
-  border-radius: 0.5em;
+  /* border-radius: 0.5em; */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

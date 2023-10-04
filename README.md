@@ -1,6 +1,6 @@
 <div align='center'>
   <h1>Web Componentify</h1>
-  <h3>Website: <a href="https://www.google.com">Click Here!🎯</a></h3>
+  <h3>Website: <a href="https://webcomponentify.design">Click Here!🎯</a></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=github,git,react,tailwind,html,css,js,vscode,vue"/>
 </div>
@@ -91,7 +91,7 @@ Contributions are always welcome!
 
 8. **Create a Pull Request**
 
-   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main CertVault repository.
+   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main Web Componentify repository.
 
 <h2>✔Project Admin</h2>
 <table>

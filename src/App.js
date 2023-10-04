@@ -6,7 +6,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="righteous-text">
+    <div>
       <BrowserRouter>
         <Header />
         <Navbar />

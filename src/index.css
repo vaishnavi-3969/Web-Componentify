@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 .righteous-text {
-    font-family: 'Righteous', cursive;
-  }
+  font-family: "Righteous", cursive;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  height: 80.7vh;
+  width: 90vw;
+  margin-top: 2rem;
+}
+
+.routes-container {
+  margin: 0 auto;
+}

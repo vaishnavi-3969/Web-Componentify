@@ -1,0 +1,23 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  border-right: 1px solid #fff;
+  padding: 0 0.7rem;
+  height: 100%;
+}
+
+.navlink {
+  color: #09090b;
+  font-weight: 600;
+  padding: 1rem 0.7rem;
+}
+
+.navlink:hover {
+  background-color: #3790d9;
+  padding: 1rem 0.7rem;
+  border-radius: 10px;
+  color: #fff;
+}

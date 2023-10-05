@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import arrowRight from "../assets/arrow-right.svg";
 import Accordion from "../components/Accordion";
+import Modal from "../components/Modal";
 
 const Homepage = () => {
   return (
@@ -33,8 +34,8 @@ const Homepage = () => {
         textColor={"text-green-500"}
         backgroundColor={"bg-white"}
       />
-
     <Accordion/>
+    <Modal/>
     </div>
   );
 };

@@ -1,8 +1,9 @@
 import React from "react"
+import {Heading} from "../components/Heading";
 export const Card = () => {
     return (
         <>
-            <h2>card</h2>
+            <Heading title={"Card"}/>
         </>
     )
 }

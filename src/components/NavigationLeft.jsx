@@ -8,6 +8,8 @@ export const NavigationLeft = () => {
             <div className="nav-container">
                 <NavLink className="navlink" to="/" >Home</NavLink>
                 <NavLink className="navlink" to="/button" >Button</NavLink>
+                <NavLink className="navlink" to="/Modal" >Modal</NavLink>
+                <NavLink className="navlink" to="/Footer" >Footer</NavLink>
                 <NavLink className="navlink" to="/avatar" >Avatar</NavLink>
                 <NavLink className="navlink" to="/card" >Card</NavLink>
                 <NavLink className="navlink" to="/alert" >Alert</NavLink>

@@ -4,20 +4,20 @@
   gap: 1rem;
   align-items: center;
   justify-content: flex-start;
-  border-right: 1px solid #fff;
-  padding: 0 0.7rem;
+  border-right: 1px solid #1a1a1a;
   height: 100%;
+  padding: 40px;
 }
 
 .navlink {
   color: #09090b;
   font-weight: 600;
   padding: 1rem 0.7rem;
+  transition: 0.5s;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
 }
 
 .navlink:hover {
-  background-color: #3790d9;
-  padding: 1rem 0.7rem;
-  border-radius: 10px;
-  color: #fff;
+  border-bottom: 3px solid #000000;
+  transition: 0.5s;
 }

@@ -3,6 +3,8 @@ import Button from "../components/Button";
 import arrowRight from "../assets/arrow-right.svg";
 import Accordion from "../components/Accordion";
 import Modal from "../components/Modal";
+import Feature6 from "../components/TopHeader";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -36,6 +38,8 @@ const Homepage = () => {
       />
     <Accordion/>
     <Modal/>
+          <Feature6/>
+          <Footer />
     </div>
   );
 };

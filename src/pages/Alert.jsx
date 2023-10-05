@@ -1,8 +1,9 @@
 import React from "react"
+import {Heading} from "../components/Heading";
 export const Alert = () => {
     return (
         <>
-            <h2>Alert</h2>
+            <Heading title={"Alert"}/>
         </>
     )
 }

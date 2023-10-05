@@ -1,8 +1,9 @@
 import React from "react"
+import {Heading} from "../components/Heading";
 export const Badge = () => {
     return (
         <>
-            <h2>Badge</h2>
+            <Heading title={"Badge"}/>
         </>
     )
 }

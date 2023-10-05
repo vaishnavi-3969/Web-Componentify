@@ -1,8 +1,9 @@
 import React from "react"
+import {Heading} from "../components/Heading";
 export const Avatar = () => {
     return (
         <>
-            <h2>Avatar</h2>
+            <Heading title={"Avatar"}/>
         </>
     )
 }

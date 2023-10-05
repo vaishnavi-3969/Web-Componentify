@@ -1,7 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .righteous-text {
-    font-family: 'Righteous', cursive;
-  }
+  font-family: "Righteous", cursive;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  height: 80.7vh;
+  width: 100vw;
+  margin-top: 2rem;
+  background-color: white;
+}
+.routes-container{
+  overflow-y: scroll;
+  height: 750px;
+  width: 100%;
+}
+
+

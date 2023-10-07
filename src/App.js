@@ -4,11 +4,13 @@ import Homepage from "./pages/Homepage";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { NavigationLeft } from "./components/NavigationLeft";
-import { Avatar } from "./components/Avatar";
-import { Card } from "./components/Card";
-import { Alert } from "./components/Alert";
-import { Badge } from "./components/Badge";
-import ButtonDoc from "./Documentation/ButtonDoc";
+import { Avatar } from "./pages/Avatar";
+import { Card } from "./pages/Card";
+import { Alert } from "./pages/Alert";
+import { Badge } from "./pages/Badge";
+import ButtonDoc from "./pages/ButtonDoc";
+import {ModalPage} from "./pages/ModalPage";
+import {FooterPage} from "./pages/FooterPage";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Homepage />} exact />
               <Route path="/button" element={<ButtonDoc />} />
+              <Route path="/Modal" element={<ModalPage />} />
+              <Route path="/Footer" element={<FooterPage />} />
               <Route path="/avatar" element={<Avatar />} />
               <Route path="/card" element={<Card />} />
               <Route path="/alert" element={<Alert />} />
@@ -28,7 +32,6 @@ function App() {
             </Routes>
           </div>
         </div>
-        <Footer />
       </BrowserRouter>
     </div>
   );

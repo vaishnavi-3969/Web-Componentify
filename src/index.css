@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .righteous-text {
   font-family: "Righteous", cursive;
 }
@@ -13,10 +12,14 @@
   justify-content: flex-start;
   gap: 2rem;
   height: 80.7vh;
-  width: 90vw;
+  width: 100vw;
   margin-top: 2rem;
+  background-color: white;
+}
+.routes-container{
+  overflow-y: scroll;
+  height: 750px;
+  width: 100%;
 }
 
-.routes-container {
-  margin: 0 auto;
-}
+

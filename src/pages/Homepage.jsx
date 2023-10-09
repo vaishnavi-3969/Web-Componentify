@@ -4,6 +4,7 @@ import arrowRight from "../assets/arrow-right.svg";
 import Accordion from "../components/Accordion";
 import Feature6 from "../components/TopHeader";
 import Footer from "../components/Footer";
+import Login from "../components/Login";
 
 const accordionItems = [
   { title: "Section 1", content: "Content for Section 1" },
@@ -42,6 +43,7 @@ const Homepage = () => {
       />
 
       <Accordion items={accordionItems} />
+      <Login/>
     </div>
       <Feature6/>
           <Footer />

@@ -13,14 +13,14 @@ import React from "react";
  * @returns {JSX.Element} - The rendered Button component.
  */
 
-const Button = ({
-  label,
-  iconURL,
-  backgroundColor,
-  textColor,
-  borderColor,
-  fullWidth,
-}) => {
+const Button = (props) => {
+  const {
+    iconURL,
+    backgroundColor,
+    textColor,
+    borderColor,
+    fullWidth,
+  } = props;
   return (
     <button
       className={`relative inline-flex items-center px-7 py-4 border text-lg leading-none rounded-full transition-all duration-300 ease-in-out
@@ -33,7 +33,7 @@ const Button = ({
         fullWidth && "w-full"
       }`}
     >
-      {label}
+      {props.children}
 
       {iconURL && (
         <img

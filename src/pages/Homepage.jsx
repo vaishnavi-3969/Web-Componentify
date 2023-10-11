@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Button from "../components/Button";
 import arrowRight from "../assets/arrow-right.svg";
-
+import Loader from '../components/Loader';
 const Homepage = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <div className="flex flex-col items-center space-y-4">
+      {isLoading ? <Loader /> : <> 
       {/* Default Button */}
       <Button label={"Default Button"} />
 
@@ -32,6 +41,7 @@ const Homepage = () => {
         textColor={"text-green-500"}
         backgroundColor={"bg-white"}
       />
+      </>}
     </div>
   );
 };

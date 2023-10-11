@@ -5,6 +5,12 @@ import Accordion from "../components/Accordion";
 import Modal from "../components/Modal";
 import Feature6 from "../components/TopHeader";
 import Footer from "../components/Footer";
+import Login from "../components/Login";
+
+const accordionItems = [
+  { title: "Section 1", content: "Content for Section 1" },
+  { title: "Section 2", content: "Content for Section 2" },
+];
 
 const Homepage = () => {
   return (
@@ -36,10 +42,12 @@ const Homepage = () => {
         textColor={"text-green-500"}
         backgroundColor={"bg-white"}
       />
-    <Accordion/>
-    <Modal/>
-          <Feature6/>
-          <Footer />
+
+      <Accordion items={accordionItems} />
+      <Login />
+      <Feature6 />
+      <Modal />
+      <Footer />
     </div>
   );
 };

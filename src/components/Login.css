@@ -44,6 +44,6 @@
     width: 100%;
   }
   
-  submit_button:hover {
+  .submit_button:hover {
     background-color: #0056b3;
   }

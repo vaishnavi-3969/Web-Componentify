@@ -12,14 +12,15 @@ import React from "react";
  * @param {boolean} [props.fullWidth] - If true, the button stretches to full width.
  * @returns {JSX.Element} - The rendered Button component.
  */
-const Button = ({
-  iconURL,
-  backgroundColor,
-  children,
-  textColor,
-  borderColor,
-  fullWidth,
-}) => {
+const Button = (props) => {
+  const {
+    iconURL,
+    backgroundColor,
+    textColor,
+    borderColor,
+    fullWidth,
+  } = props;
+
   return (
     <button
       className={`relative inline-flex items-center rounded-full border px-7 py-4 text-lg leading-none transition-all duration-300 ease-in-out
@@ -28,12 +29,11 @@ const Button = ({
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : 'bg-btntheme border-btntheme text-white'
       }
-      hover:text-#D400FF hover:rotate-3 hover:scale-105 hover:transform hover:bg-black ${
+      hover:text-D400FF hover:rotate-3 hover:scale-105 hover:transform hover:bg-black ${
         fullWidth ? 'w-full' : ''
       }`}
     >
-      {children}
-
+      {props.children}
       {iconURL && (
         <img
           src={iconURL}

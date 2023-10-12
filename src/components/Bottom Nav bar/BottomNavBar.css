@@ -1,0 +1,18 @@
+.bottomNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10vh 5vw 10vh 5vw;
+}
+.bottomNavItem1{
+    justify-items: flex-start;
+    background-color: rgb(0, 60, 255);
+    font-size: larger;
+    width:5rem;
+}
+.bottomNavItem2{
+    justify-items:flex-end;
+    background-color: rgb(0, 60, 255);
+    font-size: larger;
+    width:5rem;
+}

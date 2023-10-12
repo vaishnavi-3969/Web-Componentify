@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import arrowRight from "../assets/arrow-right.svg";
 import {Heading} from "../components/Heading";
-
+import BottomNav from "../components/Bottom Nav bar/BottomNavBar";
 function ButtonDoc() {
     return (
         <>
@@ -41,6 +41,7 @@ function ButtonDoc() {
                 Customized Button 3
                 </Button>
             </div>
+            <BottomNav backUrl="/" nextUrl="/Modal" backName="Home" nextName="Modal" />
         </>
     )
 }

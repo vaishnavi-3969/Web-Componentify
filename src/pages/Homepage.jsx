@@ -6,7 +6,7 @@ import Modal from "../components/Modal";
 import Feature6 from "../components/TopHeader";
 import Footer from "../components/Footer";
 import Login from "../components/Login";
-
+import BottomNav from "../components/Bottom Nav bar/BottomNavBar";
 const accordionItems = [
   { title: "Section 1", content: "Content for Section 1" },
   { title: "Section 2", content: "Content for Section 2" },
@@ -14,7 +14,7 @@ const accordionItems = [
 
 const Homepage = () => {
   return (
-    <div className="flex flex-col items-center space-y-4">
+    <><div className="flex flex-col items-center space-y-4">
       {/* Default Button */}
       <Button>Default Button</Button>
 
@@ -52,6 +52,7 @@ const Homepage = () => {
       <Modal />
       <Footer />
     </div>
+    <BottomNav backUrl=" " nextUrl="/Button" backName=" " nextName="Button" /></>
   );
 };
 

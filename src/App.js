@@ -22,13 +22,13 @@ function App() {
           <div className="routes-container">
             <Routes>
               <Route path="/" element={<Homepage />} exact />
-              <Route path="/button" element={<ButtonDoc />} />
+              <Route path="/Button" element={<ButtonDoc />} />
               <Route path="/Modal" element={<ModalPage />} />
               <Route path="/Footer" element={<FooterPage />} />
-              <Route path="/avatar" element={<Avatar />} />
+              <Route path="/Avatar" element={<Avatar />} />
               <Route path="/card" element={<Card />} />
-              <Route path="/alert" element={<Alert />} />
-              <Route path="/badge" element={<Badge />} />
+              <Route path="/Alert" element={<Alert />} />
+              <Route path="/Badge" element={<Badge />} />
             </Routes>
           </div>
         </div>

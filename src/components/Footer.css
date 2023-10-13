@@ -1,41 +1,66 @@
-
-.footer_main{
-    background-color: #FFFFFF ;
-     border: clamp(0px, var(--flow-condition), 0.125rem) solid var(--accent-cyan);
-     border-radius: 0.5em;
+.footer_main {
+  background-color: #ffffff;
+  border: clamp(0px, var(--flow-condition), 0.125rem) solid var(--accent-cyan);
+  border-radius: 0.5em;
 }
 
 .footer_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-    padding: 2%;
-    border: clamp(0px, var(--flow-condition), 0.125rem) solid var(--accent-cyan);
-    border-radius: 0.5em;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 2%;
+  border: clamp(0px, var(--flow-condition), 0.125rem) solid var(--accent-cyan);
+  border-radius: 0.5em;
+}
+.footer_brand {
+  display: flex;
+  max-width: 300px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.h4 {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.body3 {
+  color: var(--text-primary);
+  font-weight: 300;
+}
+.pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.mt {
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 450px) {
+  .footer_container {
+    width: 70vw;
   }
-  .footer_brand{
-    display: flex;
-    max-width: 300px;
-    text-align: center;
+  .footer_brand {
+    max-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 449px) and (min-width: 300px) {
+  .footer_container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
   }
-  .h4{
-    color: var(--text-primary);
-    font-weight: 500;
+  .footer_brand {
+    max-width: 180px;
   }
-  .body3{
-    color: var(--text-primary);
-    font-weight: 300;
+  .mt {
+    margin-top: 30px;
   }
-  .pages{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-  }
+}

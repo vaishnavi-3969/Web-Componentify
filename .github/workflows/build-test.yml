@@ -1,0 +1,32 @@
+name: CI
+on: workflow_dispatch
+
+jobs:
+  Continuous-Integration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' 
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build 
+      - name: Move Artifacts 
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config --global user.name 'vaishnavi-3969'
+          git config --global user.email 'vaishnavi.kale3011@gmail.com'
+          git checkout --orphan gh-pages
+          git rm -rf .
+          mv -f build/* .
+          git add .
+          git commit -m 'GitHub Actions: Deploy to gh-pages'
+          git push -f origin gh-pages

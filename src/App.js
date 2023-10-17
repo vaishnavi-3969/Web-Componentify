@@ -11,6 +11,8 @@ import { Badge } from "./pages/Badge";
 import ButtonDoc from "./pages/ButtonDoc";
 import {ModalPage} from "./pages/ModalPage";
 import {FooterPage} from "./pages/FooterPage";
+import { AccordionPage } from "./pages/AccordionPage";
+import { LoginPage } from "./pages/LoginPage";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
               <Route path="/card" element={<Card />} />
               <Route path="/Alert" element={<Alert />} />
               <Route path="/Badge" element={<Badge />} />
+              <Route path="/accordion" element={<AccordionPage/>} />
+              <Route path="/login" element={<LoginPage/>} />
             </Routes>
           </div>
         </div>

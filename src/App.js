@@ -13,6 +13,7 @@ import {ModalPage} from "./pages/ModalPage";
 import {FooterPage} from "./pages/FooterPage";
 import { AccordionPage } from "./pages/AccordionPage";
 import { LoginPage } from "./pages/LoginPage";
+import { DropDownMenuPage } from "./pages/DropDwonMenuPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Route path="/Badge" element={<Badge />} />
               <Route path="/accordion" element={<AccordionPage/>} />
               <Route path="/login" element={<LoginPage/>} />
+              <Route path="/drop-down" element={<DropDownMenuPage/>} />
             </Routes>
           </div>
         </div>

@@ -16,6 +16,8 @@ export const NavigationLeft = () => {
                 <NavLink className="navlink" to="/badge" >Badge</NavLink>
                 <NavLink className="navlink" to="/accordion" >Accordion</NavLink>
                 <NavLink className="navlink" to="/login" >Login</NavLink>
+                <NavLink className="navlink" to="/drop-down" >Dropdown Menu</NavLink>
+                
                 
                 <p>more add below</p>
             </div>

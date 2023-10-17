@@ -65,8 +65,9 @@ const Homepage = () => {
           <Footer />
         </>
       )}
+       <BottomNav backUrl=" " nextUrl="/Button" backName=" " nextName="Button" />
     </div>
-    <BottomNav backUrl=" " nextUrl="/Button" backName=" " nextName="Button" />
+   
   );
 };
 

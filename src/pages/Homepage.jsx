@@ -9,14 +9,6 @@ import Footer from "../components/Footer";
 import BottomNav from "../components/Bottom Nav bar/BottomNavBar";
 
 const Homepage = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
-
-    return () => clearTimeout(timer);
-  }, []);
   return (
     <div className="flex flex-col items-center space-y-4">
       {isLoading ? (

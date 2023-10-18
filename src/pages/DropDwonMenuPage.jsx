@@ -15,7 +15,7 @@ export const DropDownMenuPage = () => {
       
         <>
          <div>
-      <h1>Dropdown Menu</h1>
+      <h1>Dropdown resubale Menu</h1>
       <DropdownMenu options={options} onSelect={handleSelect} />
     </div>
         </>

@@ -13,14 +13,14 @@ const BottomNav = (props) => {
     function Func2(){
             navigate(nextUrl)
     }
-    if(backUrl ==' ' )
+    if(backUrl ===' ' )
         return(
             <div className='bottomNav'>
                 <div style={{width:'34px',height:'40px',padding:'6px 16px'}}></div>
                 <button className='bottomNavItem2' onClick={Func2}>{nextname}</button>
             </div>
             )
-    if(nextUrl ==' ')
+    if(nextUrl ===' ')
             return(
                 <div className='bottomNav'>
                     <button className='bottomNavItem1' onClick={Func1}>{backname}</button>

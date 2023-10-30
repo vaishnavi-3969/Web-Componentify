@@ -8,4 +8,4 @@ step-3: render the componenet with props as:
 3. backName: name of the back button.
 4. nextName: name of the next button.
 
-PS: if you want nice UI, use React Material UI "Button" component.
+PS: if you want nice UI, use React Material UI "Button" component.gi

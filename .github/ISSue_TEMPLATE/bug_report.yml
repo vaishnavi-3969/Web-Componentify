@@ -1,4 +1,4 @@
-name: 🐛 Bug
+name: 🐛 Bug Report
 description: Report an issue to help improve the project.
 labels: ["🛠 goal: fix", "🚦 status: awaiting triage"]
 body:

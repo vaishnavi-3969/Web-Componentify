@@ -1,4 +1,4 @@
-name: 📄 Feature Request
+name: 📄 New Feature Request
 description: Want to add a new Feature? use this
 title: "[Feat] <description>"
 labels: ["📄 aspect: feature", "🚦 status: awaiting triage"]

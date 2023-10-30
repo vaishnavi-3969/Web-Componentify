@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import "../Css/NavigationLeft.css"
+import "./NavigationLeft.css"
 
 export const NavigationLeft = () => {
     return (

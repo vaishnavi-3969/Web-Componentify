@@ -1,0 +1,191 @@
+@media screen and (max-width:1000px) {
+    nav {
+       flex-direction: column;
+    }
+ 
+    header {
+       height: 15vh;
+       width: 100%;
+ 
+    }
+ 
+    .logo {
+       justify-content: center;
+       margin-top: 10px;
+    }
+ 
+    nav ul {
+       justify-content: center;
+       height: 46px;
+    }
+ 
+    .search {
+       justify-content: center;
+       /* align-items: center;
+         width: 209px; */
+       margin: 0px 14vw;
+       border-radius: 5px;
+    }
+ 
+    #btn8 {
+       margin: 0px 5px 0px 3px;
+    }
+ 
+    .slidder {
+       height: 20vh;
+    }
+ 
+    .cardbtn p {
+       font-size: 1rem;
+       margin: 2px;
+    }
+ 
+    .cardbtn button {
+       margin-left: 10px;
+       font-size: 0.5rem;
+       width: 10vw;
+       height: 3vh;
+ 
+    }
+ 
+    .image1 {
+       width: 17vw;
+       height: 10vh;
+       float: left;
+       /* margin: 0px 40px; */
+ 
+    }
+ 
+    .con1 {
+       height: 20vh;
+       margin: 20px;
+    }
+ 
+    .con2 {
+       margin: 20px;
+    }
+ 
+    .con3 {
+       margin: 20px;
+    }
+ 
+    .con4 {
+       margin: 20px;
+    }
+ 
+    .con5 {
+       margin: 20px;
+    }
+ 
+    .con6 {
+       margin: 20px;
+    }
+ 
+    .image2 {
+       width: 17vw;
+       height: 10vh;
+       float: left;
+       /* margin: 0px 40px; */
+ 
+    }
+ 
+    .image3 {
+       width: 17vw;
+       height: 10vh;
+       float: left;
+       /* margin: 0px 40px; */
+ 
+    }
+ 
+    .image4 {
+       width: 17vw;
+       height: 10vh;
+       float: left;
+       /* margin: 0px 40px; */
+ 
+    }
+ 
+    .image5 {
+       width: 17vw;
+       height: 10vh;
+       float: left;
+       /* margin: 0px 40px; */
+ 
+    }
+ 
+    .image6 {
+       width: 17vw;
+       height: 10vh;
+       float: left;
+       /* margin: 0px 40px; */
+    }
+ 
+    .card {
+       height: 25vh;
+    }
+ 
+    #btn1 {
+       width: 40px;
+       height: 8vh;
+       margin-top: 30px;
+       margin-left: 23px;
+    }
+ 
+    #ibtn {
+       width: 4vw;
+       margin: 2px;
+    }
+ 
+    .images::after {
+       display: table;
+       clear: both;
+    }
+ 
+    #w1 {
+       font-size: 0.8rem;
+    }
+ 
+    #w2 {
+       font-size: 0.8rem;
+    }
+ 
+    #w3 {
+       font-size: 0.8rem;
+    }
+ 
+    #w4 {
+       font-size: 0.8rem;
+    }
+ 
+    #w5 {
+       font-size: 0.8rem;
+    }
+ 
+    #w6 {
+       font-size: 0.8rem;
+    }
+ 
+    #w7 {
+       font-size: 0.7rem;
+    }
+ 
+    #w8 {
+       font-size: 0.7rem;
+    }
+ 
+    #w9 {
+       font-size: 0.7rem;
+    }
+ 
+    #w10 {
+       font-size: 0.7rem;
+    }
+ 
+    #w11 {
+       font-size: 0.7rem;
+    }
+ 
+    #w12 {
+       font-size: 0.7rem;
+    }
+ }

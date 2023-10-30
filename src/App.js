@@ -26,8 +26,8 @@ function App() {
      <Route path="Footer" element={<FooterPage />} />
      <Route path="Avatar" element={<Avatar />} />
      <Route path="card" element={<Card />} />
-     <Route path="Alert" element={<Alert />} />
-     <Route path="Badge" element={<Badge />} />
+     <Route path="alert" element={<Alert />} />
+     <Route path="badge" element={<Badge />} />
      </Route>
       </Routes>
     </div>

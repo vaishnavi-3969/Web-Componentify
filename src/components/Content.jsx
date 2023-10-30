@@ -38,7 +38,7 @@ const Content = () => {
           case '/card':
             return <Card />;
           case '/alert':
-            case '/Badge':
+            case '/badge':
               return <Card />;
             
       default:

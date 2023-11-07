@@ -23,7 +23,7 @@ const Button = (props) => {
 
   return (
     <button
-      className={`relative inline-flex items-center rounded-full border px-7 py-4 text-lg leading-none transition-all duration-300 ease-in-out
+      className={` my-2 mx-1 max-md:mx-1 backdrop:relative inline-flex items-center rounded-full border px-7 py-4 text-lg leading-none transition-all duration-300 ease-in-out
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`

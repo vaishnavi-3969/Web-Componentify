@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&family=Cinzel:wght@900&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&family=Cinzel:wght@900&family=Lato:wght@700&family=Open+Sans:wght@500;600&family=Roboto+Mono:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+    /* rgb(109, 163, 244) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    width: 100vw;
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 70px;
+    margin: 0px 20px;
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+nav ul li {
+
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+nav ul li a:hover {
+    /* color: #89abe1; */
+    font-weight: bolder;
+    /* font-style: bold; */
+}
+
+.search {
+    display: flex;
+}
+/* 
+.container {
+    height: calc(100vh - 60px - 15vh);
+    background-color:rgb(211, 211, 214)
+} */
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 30px;
+    width: 500px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 2px;
+}
+
+.search img {
+    height: 35px;
+    width: 30px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translate(-1000px);
+    }
+
+    100% {
+        transform: translate(1600px);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translate(-1000px);
+    }
+
+    100% {
+        transform: translate(1500px);
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translate(-500px);
+    }
+
+    100% {
+        transform: translate(1800px);
+    }
+}
+
+.slidder {
+    background-color: white;
+    height: 50%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img1 {
+    height: 200px;
+    width: 500px;
+    margin: 10px;
+    transform: translate(-1000px);
+    animation: slide1 10s infinite forwards;
+}
+
+.img2 {
+    height: 200px;
+    width: 500px;
+    margin: 10px;
+    transform: translate(-1000px);
+    animation: slide1 10s 5s infinite forwards;
+}
+
+.img3 {
+    height: 200px;
+    width: 500px;
+    margin: 10px;
+    transform: translate(-500px);
+    animation: slide1 10s infinite forwards;
+}
+
+.card {
+    width: 35vw;
+    height: 300px;
+    background-color: white;
+    margin: 0px 20px;   
+    display: flex;
+}
+
+.card p {
+    margin-left: 30px;
+    font-size:  30px;  
+    font-family: 'Open Sans', sans-serif;
+}
+.card button{
+    margin: 30px 40px;
+    width: 90px;
+    height: 40px;
+    background-color: #2874f0;
+    color: white;
+    font-size:  15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+
+}
+ button :hover{
+    font-weight: bolder;
+}
+.images{
+    display: inline-flex;
+}
+.image1{
+  width:  150px;
+  height: 150px;
+  margin: 5px;
+}
+.image2{
+  
+  width:  150px;
+  height: 150px;
+  margin: 5px;
+  }
+  .image3{
+    width:  150px;
+  height: 150px;
+  margin: 5px;
+  }
+  .image4{
+    width:  150px;
+    height: 150px;
+    margin: 5px;
+  }
+  .image5{
+    width:  150px;
+  height: 150px;
+  margin: 5px;
+  }
+  .image6{
+    width:  150px;
+  height: 150px;
+  margin: 5px;
+  }
+  .classes{
+    display: flex;
+  }
+  .con1{
+    height: 25vh;
+    margin: 5px;
+    /* background-color: brown; */
+    width: 13vw;
+  }
+  .con2{
+    height: 25vh;
+    margin: 5px;
+    /* background-color: pink; */
+    width: 13vw;
+  }
+  .con3{
+    height: 25vh;
+    margin: 5px;
+    /* background-color: brown; */
+    width: 13vw;
+  }
+  .con4{
+    height: 25vh;
+    margin: 5px;
+    /* background-color: violet; */
+    width: 13vw;
+  }
+  .con5{
+    height: 25vh;
+    margin: 5px;
+    /* background-color: pink; */
+    width: 13vw;
+  }
+  .con6{
+    height: 25vh;
+    margin: 5px;
+    /* background-color: brown; */
+    width: 13vw;
+  }
+   #w1{
+    margin-left: 4vw;
+    
+  }
+  #w2{
+    margin-left: 2vw;
+  }
+  #w3{
+    margin-left: 4vw;
+  }
+  #w4{
+    margin-left: 4vw;
+   
+  }
+  #w5{
+    margin-left: 3vw;
+  }
+ #w6{
+    margin-left: 4vw;
+  }
+  #w12{
+    margin-left: 3vw;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: green
+  }
+  #w7{
+    margin-left: 2vw;
+    margin-top: 10px;
+    color: green;
+    font-size: 1rem;
+  }
+  #w8{
+    margin-left: 3vw;
+    margin-top: 10px;
+    font-size: 1rem;   
+    color: green
+  }
+  #w9{
+    margin-left: 3vw;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: green
+  }
+  #w10{
+    margin-left: 3vw;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: green
+  }
+  #w11{
+    font-size: 1rem;
+    margin-left: 3vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: green
+  }
+  .container1{
+    margin-top: 50px;
+  }
+  .container2{
+    margin-top: 50px;
+  }
+  .container3{
+    margin-top: 50px;
+  }
+  .imgcontainer{
+    margin-top: 20px;
+  }
+  #btn1{
+    margin: 19px 0px 0px 10px;
+    padding: 0;
+    height: 130px;
+    width: 60px;
+    background-color: rgb(251, 251, 251);
+    align-items: center;
+    font-size: 5px;
+  }
+  #ibtn{ 
+     width: 3vw;
+    margin: 2px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+.space{
+   height: 30px;
+   background-color: rgb(226, 227, 227);
+  border: 1px solid rgb(209, 209, 209);
+   margin-top: 20px;
+  
+}
+#ar1{
+  margin: 0px;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    height: 15vh;
+    /* translate:; */
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/*Resposiveness-------
+ width properties, grid property,flex wrap, 
+flex-width importance(use width case of flex)
+gap,flex-direction,
+gap-margin right,
+grid-properties for responsiveness
+container width can be remain same by
+position relative,top 50px,
+cal() 
+::after
+width: 100px
+height:100px; 
+  */

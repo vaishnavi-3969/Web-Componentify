@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Accordion.css';
-import Expand from '../assets/expand_more.png';
+import Expand from './expand_more.png';
 
 // Individual Accordion Item component
 const AccordionItem = ({ item, index, isActive, onClick }) => {

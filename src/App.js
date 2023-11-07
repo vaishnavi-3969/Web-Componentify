@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Homepage from "./pages/Homepage";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import { NavigationLeft } from "./components/LeftNavigation/NavigationLeft";
 import { Avatar } from "./pages/Avatar";
 import { Card } from "./pages/Card";
 import { Alert } from "./pages/Alert";
